@@ -14,7 +14,7 @@
 
 
 .left-section{
-    grid-column: 300px;
+    grid-column: span 1;
     background-color: rgb(15, 104, 104);
     color: white;
 }
@@ -124,7 +124,7 @@ span{
 
 
 .right-section{
-    grid-column: 700px;
+    grid-column: span 1 / span 2;
     background-color: rgb(213, 219, 224);
     /* padding-top: 2rem;
     padding-bottom: 2rem;
